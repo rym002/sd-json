@@ -1,0 +1,42 @@
+{
+  "name": "sd-json",
+  "version": "1.0.0",
+  "description": "Schedules Direct JSON Client",
+  "main": "dist/index.js",
+  "scripts": {
+    "prepack": "tsc",
+    "test": "mocha -r ts-node/register test/*.test.ts",
+    "clean": "rm .npmrc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rym002/sd-json.git"
+  },
+  "keywords": [
+    "schedules direct"
+  ],
+  "author": "Ray Munian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rym002/sd-json/issues"
+  },
+  "homepage": "https://github.com/rym002/sd-json#readme",
+  "dependencies": {
+    "axios": "^0.19.0"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.5",
+    "@types/chai-as-promised": "^7.1.2",
+    "@types/mocha": "^5.2.7",
+    "@types/nock": "^11.1.0",
+    "@types/node": "^12.12.8",
+    "@types/sinon": "^7.5.0",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^6.2.2",
+    "nock": "^11.7.0",
+    "sinon": "^7.5.0",
+    "ts-node": "^8.5.2",
+    "typescript": "^3.7.2"
+  }
+}

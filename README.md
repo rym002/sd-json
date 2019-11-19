@@ -1,0 +1,2 @@
+# sd-json
+* Schedules Direct JSON API client ![Build Status](https://codebuild.us-east-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiZ1U0cnc2dDlmUmlEQkxCUDJkUW1FNnJPRjZEUzBIb083eDFtUU84OUVYang0M2xVQTlBTU1qNHBkV2M2NmVmUjJaLytKaks1VEY3V3ZvRTZSc0tya0lnPSIsIml2UGFyYW1ldGVyU3BlYyI6IndPNVNZYVNPUWJWSnlrS3QiLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=master)
