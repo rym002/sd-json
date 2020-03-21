@@ -27,6 +27,7 @@
   "devDependencies": {
     "@types/chai": "^4.2.11",
     "@types/chai-as-promised": "^7.1.2",
+    "@types/mocha": "^7.0.2",
     "@types/nock": "^11.1.0",
     "@types/node": "^12.12.30",
     "@types/sinon": "^7.5.2",
