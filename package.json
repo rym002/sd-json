@@ -29,14 +29,14 @@
     "@types/chai-as-promised": "^7.1.2",
     "@types/mocha": "^7.0.2",
     "@types/nock": "^11.1.0",
-    "@types/node": "^12.12.30",
+    "@types/node": "^12.12.47",
     "@types/sinon": "^7.5.2",
     "chai": "^4.2.0",
     "chai-as-promised": "^7.1.1",
-    "mocha": "^7.1.1",
+    "mocha": "^7.2.0",
     "nock": "^11.9.1",
     "sinon": "^7.5.0",
-    "ts-node": "^8.7.0",
-    "typescript": "^3.8.3"
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.5"
   }
 }
