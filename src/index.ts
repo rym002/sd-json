@@ -52,8 +52,10 @@ export class Service {
         baseURL: 'https://json.schedulesdirect.org/20141201'
     })
     private readonly credentials: Token.Request;
-    constructor(username: string, password: string) {
-        const sha1Password = createHash('sha1').update(password).digest('hex')
+    constructor(username: string, password: string, passwordHashed = false) {
+        const sha1Password = passwordHashed
+            ? password
+            : createHash('sha1').update(password).digest('hex')
         this.credentials = {
             username: username,
             password: sha1Password
