@@ -1,6 +1,6 @@
 {
   "name": "sd-json",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Schedules Direct JSON Client",
   "main": "dist/index.js",
   "scripts": {
