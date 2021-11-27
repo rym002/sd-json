@@ -1,6 +1,6 @@
 import axios, { AxiosRequestConfig } from 'axios'
 import { createHash } from 'crypto'
-
+const Duration = require('duration-js')
 export namespace Token {
     export interface Request {
         username: string
@@ -63,9 +63,10 @@ export class Service {
     }
     private async login() {
         const tokenResp = await this.myAxios.post<Token.Response>('token', this.credentials)
+        const delay = new Duration('1d').milliseconds()
         setTimeout(() => {
             this.token = undefined
-        }, 24 * 60 * 60 * 1000);
+        }, delay);
         this.token = tokenResp.data.token
     }
     private async getAxiosConfig(): Promise<AxiosRequestConfig> {
@@ -74,7 +75,7 @@ export class Service {
         }
         return {
             headers: {
-                token: this.token
+                token: this.token!
             }
         }
     }
